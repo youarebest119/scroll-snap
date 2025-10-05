@@ -1,8 +1,7 @@
 import React from 'react'
 import img from "../assets/images/about.jpg"
 import { useGSAP } from '@gsap/react'
-import SplitText from 'gsap-trial/SplitText'
-import gsap from 'gsap'
+import { SplitText } from 'gsap/SplitText'
 
 const About = () => {
     useGSAP(() => {

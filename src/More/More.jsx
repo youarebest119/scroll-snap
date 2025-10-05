@@ -1,6 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import SplitText from 'gsap-trial/SplitText'
-import React from 'react'
+import { SplitText } from 'gsap/SplitText'
 
 const More = () => {
     useGSAP(() => {
